@@ -1,0 +1,186 @@
+.line{
+	background-color:#a292b3;
+	padding:4px;
+}
+.navbar{
+	padding-top:2.3%;
+	padding-bottom:2.3%;
+}
+.logo-icon{
+	padding-left:3%;
+	padding-right:3%;
+}
+.logo-icon>img{
+	padding-right:75%;
+}
+.navbar-toggler-icon{
+	border:1px solid #a292b3;
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#a292b3' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.navbar>div>div>form{
+	padding-bottom:1%;
+
+}
+.navbar>div>div>form:last-child{
+	margin-right:0;
+}
+.navbar>div>div>form>a{
+	font-family:Segoe UI;
+	color:#545454;
+	font-size:19px;
+}
+.navbar>div>div>form>a>span{
+	color:#a292b3;
+}
+footer{
+	background-color:#e8e8e8;
+}
+footer>div{
+	padding-top:1%;
+}
+footer>div>font{
+	color:#545454;
+}
+footer>div{
+	padding-top:1%;
+	padding-bottom:1%;
+}
+footer>div>font{
+	color:#545454;
+}
+footer>div>a{
+	padding-left:60%;
+}
+footer>div>a:last-child{
+	padding-left:0;
+}
+#carouselExampleControls{
+	width:92%;
+	margin-left:4%;
+}
+.carousel-control-prev{
+	margin-left:-6%;
+}
+.carousel-control-prev-icon{
+	background-color:#a292b3;
+	padding:10%;
+	padding-top:20%;
+	padding-bottom:20%;
+}
+.carousel-control-next{
+	margin-right:-6%;
+}
+.carousel-control-next-icon{
+	background-color:#a292b3;
+	padding:10%;
+	padding-top:20%;
+	padding-bottom:20%;
+}
+.carousel-caption{
+	margin-top:50px;
+	padding-top:19px;
+}
+.carousel-caption>.h1{
+	font-family:StRyde-Regular;
+	font-size:117px;
+	 text-shadow: -5px 5px 1px black;
+}
+.carousel .p{
+	margin-bottom:0;
+}
+.carousel .p:last-child{
+	margin-bottom: 130px;
+}
+.carousel-caption>.p{
+	font-family: Sofia Pro Light;
+	font-size:31px;
+}
+.qt{
+	padding-top:20px;
+	padding-bottom:;
+}
+.qt>.container{
+	font-family:StRyde-Regular;
+	font-size:23px;
+	width:75%;
+	text-align:center;
+}
+.content{
+	padding-top:1%;
+	padding-bottom:3%;
+}
+.col-md-4{
+	padding-left:8%;
+}
+.col-md-8{
+	padding-top:3%;
+	padding-left:4.5%;
+}
+.col-md-8>.col-8-h1{
+	font-family:Segoe UI ;
+	font-size:31px;
+}
+.col-md-8>.col-8-p{
+	font-family:Segoe UI Regular;
+	font-size:15px;
+	padding-right:13%;
+}
+.col-md-8>i>a{
+	font-family:Segoe UI Regular;
+	font-size:13px;
+	color:#545454;
+	padding-left:75%;
+}
+.clients>div{
+	font-family:Segoe UI Regular;
+	font-size:23px;
+	padding-left:5%;
+	padding-bottom:3%;
+}
+.clients>div>form>img{
+	width:70%;
+}
+.clients-logos{
+	padding-top:3%;
+}
+.clients-logos>div{
+	padding:1%;
+	background-color:#f5f5f5;
+	border-collapse: collapse;
+}
+.col-md-3{
+	border:solid 1px #dedede ;
+	padding-left:2%;
+	padding-right:2%;
+	padding-top:1%;
+	padding-bottom:1%;
+}
+font{
+	color:#a292b3;
+}
+@media screen and (max-width: 768px) {
+	.logo-icon{
+	padding-left:0;
+	padding-right:0;
+	width:30%;
+}
+.content>.container>.row>.col-md-4>img{
+	padding:0%;
+	width:90%;
+}
+.col-md-8>i>a{
+	padding-left:50%;
+}
+}
+@font-face {
+font-family: 'Sofia Pro Light';
+src: url("../fonts/SofiaProUltraLight.ttf") format("truetype");
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'StRyde-Regular';
+src: url("../fonts/StRyde-Regular.otf") format("truetype");
+font-weight: normal;
+font-style: normal;
+}
